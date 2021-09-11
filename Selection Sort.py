@@ -1,7 +1,4 @@
 
-
-
-
 unsortedFile =  open('numbers.txt', 'r')
 sortedFile = open('sorted.txt', 'w')
 arr = unsortedFile.read().split('\n')       #in its current state, the numbers are strings not integers
